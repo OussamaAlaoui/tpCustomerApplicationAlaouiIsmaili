@@ -46,11 +46,17 @@
 			<version>${mockito-core.version}</version>
 			<scope>test</scope>
 		</dependency>
+                <dependency>
+   <groupId>org.primefaces</groupId>
+   <artifactId>primefaces</artifactId>
+   <version>10.0.0</version>
+</dependency>
     </dependencies>
 
     <build>
         <finalName>tpCustomerApplicationAlaouiIsmaili</finalName>
         <plugins>
+            
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
