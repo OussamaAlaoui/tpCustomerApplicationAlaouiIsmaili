@@ -33,4 +33,8 @@ public void persist(Object customer) {
         
         return em.merge(customer);
     }
+
+    public Customer getCustomer(int idCustomer) {
+        return em.find(Customer.class, idCustomer);
+    }
 }
